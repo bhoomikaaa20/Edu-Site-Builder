@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Nexus — AI Technologies</title>
+  <meta name="description" content="Machine Learning, Deep Learning, and NLP — the engines behind modern AI." />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/index.html" class="logo">
+        <span class="logo-mark">AI</span>
+        <span class="logo-text">Nexus</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="/index.html" class="nav-link" data-nav="home">Home</a>
+        <a href="/pages/about.html" class="nav-link" data-nav="about">About</a>
+        <a href="/pages/basics.html" class="nav-link" data-nav="basics">AI Basics</a>
+        <a href="/pages/tech.html" class="nav-link" data-nav="tech">Technologies</a>
+        <a href="/pages/applications.html" class="nav-link" data-nav="applications">Applications</a>
+        <a href="/pages/comparison.html" class="nav-link" data-nav="comparison">Comparison</a>
+        <a href="/pages/login.html" class="nav-link" data-nav="login">Login</a>
+        <a href="/pages/contact.html" class="nav-link" data-nav="contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">AI Technologies</p>
+        <h1>The engines behind modern AI</h1>
+        <p>
+          Almost every AI product you use is built on a small set of techniques.
+          Here are the three you'll hear about most: Machine Learning, Deep
+          Learning, and Natural Language Processing.
+        </p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container content-grid">
+        <div class="prose">
+          <h2>The map of AI techniques</h2>
+          <p>
+            These technologies aren't separate worlds — they nest inside each
+            other. The diagram below uses a nested list to make that hierarchy
+            explicit.
+          </p>
+
+          <ul class="nested-list">
+            <li>
+              <strong>Artificial Intelligence</strong> — the broad field
+              <ul>
+                <li>
+                  <strong>Machine Learning (ML)</strong> — systems that learn from data
+                  <ul>
+                    <li><strong>Supervised Learning</strong> — learns from labeled examples
+                      <ul>
+                        <li>Classification (spam vs. not spam)</li>
+                        <li>Regression (predicting house prices)</li>
+                      </ul>
+                    </li>
+                    <li><strong>Unsupervised Learning</strong> — finds patterns without labels
+                      <ul>
+                        <li>Clustering (grouping similar customers)</li>
+                        <li>Dimensionality reduction</li>
+                      </ul>
+                    </li>
+                    <li><strong>Reinforcement Learning</strong> — learns through trial and reward
+                      <ul>
+                        <li>Game-playing agents</li>
+                        <li>Robotics control</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Deep Learning (DL)</strong> — ML using deep neural networks
+                  <ul>
+                    <li>Convolutional Neural Networks (vision)</li>
+                    <li>Recurrent Neural Networks (sequences)</li>
+                    <li>Transformers (language, vision, audio)</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Natural Language Processing (NLP)</strong> — AI for human language
+                  <ul>
+                    <li>Text classification &amp; sentiment analysis</li>
+                    <li>Machine translation</li>
+                    <li>Question answering &amp; chatbots</li>
+                    <li>Large Language Models (LLMs)</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <h2>Quick definitions</h2>
+
+          <h3>Machine Learning</h3>
+          <p>
+            Machine Learning is the practice of teaching a computer by showing
+            it examples instead of writing explicit rules. Give it 10,000 photos
+            tagged "cat" or "dog" and it will learn to tag new photos on its own.
+          </p>
+
+          <h3>Deep Learning</h3>
+          <p>
+            Deep Learning is a more powerful flavor of Machine Learning that uses
+            many-layered neural networks. It's the technology behind today's image
+            recognition, speech recognition, and large language models.
+          </p>
+
+          <h3>Natural Language Processing</h3>
+          <p>
+            NLP is the area of AI that deals with human language — reading it,
+            writing it, translating it, summarizing it, and answering questions
+            about it. Modern chatbots are NLP systems built on Deep Learning.
+          </p>
+        </div>
+
+        <figure class="figure">
+          <img src="/images/tech.svg" alt="Layered diagram of AI, Machine Learning, Deep Learning and NLP" />
+          <figcaption>Each technique is a subset of the one above it.</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>AI Nexus</strong>
+        <p class="muted">An educational website about Artificial Intelligence.</p>
+      </div>
+      <div>
+        <p class="muted">© <span id="year"></span> AI Nexus. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Nexus — Comparison</title>
+  <meta name="description" content="AI vs. traditional systems — side-by-side comparison, pros and cons." />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/index.html" class="logo">
+        <span class="logo-mark">AI</span>
+        <span class="logo-text">Nexus</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="/index.html" class="nav-link" data-nav="home">Home</a>
+        <a href="/pages/about.html" class="nav-link" data-nav="about">About</a>
+        <a href="/pages/basics.html" class="nav-link" data-nav="basics">AI Basics</a>
+        <a href="/pages/tech.html" class="nav-link" data-nav="tech">Technologies</a>
+        <a href="/pages/applications.html" class="nav-link" data-nav="applications">Applications</a>
+        <a href="/pages/comparison.html" class="nav-link" data-nav="comparison">Comparison</a>
+        <a href="/pages/login.html" class="nav-link" data-nav="login">Login</a>
+        <a href="/pages/contact.html" class="nav-link" data-nav="contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Comparison</p>
+        <h1>AI vs. traditional systems</h1>
+        <p>
+          Traditional software follows rules a human wrote. AI systems learn
+          patterns from data. Both have a place — the trick is knowing which
+          one fits the problem.
+        </p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container">
+        <h2>Side-by-side</h2>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Aspect</th>
+                <th>Traditional Systems</th>
+                <th>AI Systems</th>
+                <th>Implication</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>How behavior is defined</td>
+                <td>Hand-written rules</td>
+                <td>Patterns learned from data</td>
+                <td>AI scales to messy, real-world inputs</td>
+              </tr>
+              <tr>
+                <td>Maintenance</td>
+                <td>Edit rules manually</td>
+                <td>Retrain on new data</td>
+                <td>Different skill set required</td>
+              </tr>
+              <tr>
+                <td>Predictability</td>
+                <td>Deterministic, easy to audit</td>
+                <td>Probabilistic, harder to explain</td>
+                <td>AI needs guardrails for high-stakes use</td>
+              </tr>
+              <tr>
+                <td>Best at</td>
+                <td>Stable, well-defined tasks</td>
+                <td>Perception, language, prediction</td>
+                <td>Pick the tool that fits the job</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="proscons">
+          <div class="panel pros">
+            <h3>Pros of AI</h3>
+            <ul>
+              <li>Handles unstructured data (text, images, audio)</li>
+              <li>Improves over time as more data becomes available</li>
+              <li>Automates tasks that are too vague for explicit rules</li>
+              <li>Surfaces patterns humans would miss</li>
+              <li>Operates at scale without getting tired</li>
+            </ul>
+          </div>
+          <div class="panel cons">
+            <h3>Cons of AI</h3>
+            <ul>
+              <li>Needs large amounts of high-quality data</li>
+              <li>Can be expensive to train and run</li>
+              <li>Behavior is harder to fully explain or audit</li>
+              <li>May reflect biases present in its training data</li>
+              <li>Mistakes can be confident and hard to detect</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="content-grid" style="margin-top: 2.5rem;">
+          <div class="prose">
+            <h2>So which should you use?</h2>
+            <p>
+              If your problem can be described with a clean set of rules — tax
+              calculations, inventory thresholds, business workflows — a
+              traditional system will be cheaper, faster, and easier to debug.
+              If your problem involves perception, prediction, or language
+              over messy real-world inputs — that's where AI earns its place.
+            </p>
+            <p>
+              The most successful products often combine both: traditional code
+              for the parts you understand, and AI for the parts you don't.
+            </p>
+          </div>
+
+          <figure class="figure">
+            <img src="/images/comparison.svg" alt="Two boxes labelled Rules and Data feeding a decision" />
+            <figcaption>Two routes to the same decision.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>AI Nexus</strong>
+        <p class="muted">An educational website about Artificial Intelligence.</p>
+      </div>
+      <div>
+        <p class="muted">© <span id="year"></span> AI Nexus. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

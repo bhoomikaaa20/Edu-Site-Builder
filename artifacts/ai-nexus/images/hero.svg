@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="AI hero illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b1f26"/>
+      <stop offset="100%" stop-color="#2c5fd9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="420" rx="22" fill="url(#bg)"/>
+  <circle cx="300" cy="210" r="170" fill="url(#glow)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5">
+    <circle cx="300" cy="210" r="60"/>
+    <circle cx="300" cy="210" r="100"/>
+    <circle cx="300" cy="210" r="140"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="300" cy="210" r="10"/>
+    <circle cx="240" cy="210" r="5"/>
+    <circle cx="360" cy="210" r="5"/>
+    <circle cx="300" cy="150" r="5"/>
+    <circle cx="300" cy="270" r="5"/>
+    <circle cx="200" cy="170" r="4" opacity="0.8"/>
+    <circle cx="400" cy="170" r="4" opacity="0.8"/>
+    <circle cx="200" cy="250" r="4" opacity="0.8"/>
+    <circle cx="400" cy="250" r="4" opacity="0.8"/>
+    <circle cx="160" cy="210" r="3" opacity="0.6"/>
+    <circle cx="440" cy="210" r="3" opacity="0.6"/>
+  </g>
+  <g stroke="#ffffff" stroke-opacity="0.55" stroke-width="1">
+    <line x1="300" y1="210" x2="240" y2="210"/>
+    <line x1="300" y1="210" x2="360" y2="210"/>
+    <line x1="300" y1="210" x2="300" y2="150"/>
+    <line x1="300" y1="210" x2="300" y2="270"/>
+    <line x1="240" y1="210" x2="200" y2="170"/>
+    <line x1="240" y1="210" x2="200" y2="250"/>
+    <line x1="360" y1="210" x2="400" y2="170"/>
+    <line x1="360" y1="210" x2="400" y2="250"/>
+  </g>
+  <text x="300" y="395" text-anchor="middle" fill="#ffffff" fill-opacity="0.7"
+        font-family="Inter, Arial, sans-serif" font-size="14" letter-spacing="2">
+    AI · NEXUS
+  </text>
+</svg>

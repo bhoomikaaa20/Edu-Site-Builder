@@ -1,0 +1,154 @@
+📄 PRODUCT REQUIREMENTS DOCUMENT (PRD)
+🧾 Project Title
+
+AI Nexus – Educational Website for Artificial Intelligence
+
+🎯 1. Purpose
+
+The purpose of this project is to design and develop a professional, multi-page educational website that explains Artificial Intelligence (AI) concepts in a clear, simple, and engaging manner.
+The website should demonstrate strong front-end development skills using HTML, CSS, and JavaScript only.
+
+👥 2. Target Audience
+Students learning AI
+Beginners (non-technical users)
+Researchers (basic overview)
+General tech enthusiasts
+🌐 3. Scope
+
+The website will:
+
+Provide structured AI learning content
+Include interactive UI elements
+Be responsive across devices
+Use only HTML, CSS, JavaScript (no frameworks)
+📁 4. Website Structure (8 Pages)
+1. 🏠 Home (index.html)
+Website introduction
+Hero section
+Quick navigation cards
+2. ℹ️ About (about.html)
+Purpose of website
+Target audience
+Why AI is important
+3. 🤖 AI Basics (basics.html)
+What is AI
+Types of AI
+Simple explanations
+
+👉 Include:
+
+Paragraphs
+Images
+4. ⚙️ AI Technologies (tech.html)
+Machine Learning
+Deep Learning
+NLP
+
+👉 Include:
+
+Nested list (MANDATORY)
+5. 🌍 Applications (applications.html)
+AI in healthcare
+AI in finance
+AI in education
+
+👉 Include:
+
+Table (minimum 4x4)
+6. ⚖️ Comparison (comparison.html)
+AI vs Traditional Systems
+
+👉 Include:
+
+Table comparison
+Pros & Cons
+7. 🔐 Login (login.html)
+Email & password
+
+👉 Include:
+
+JavaScript validation
+8. 📩 Contact (contact.html)
+Name
+Email
+Message
+
+👉 Include:
+
+Validation + feedback message
+⚙️ 5. Functional Requirements
+
+The website MUST include:
+
+✅ Navigation bar (same on all pages)
+✅ 8 fully working pages
+✅ Internal linking between pages
+✅ Images on each page
+✅ Table (at least one 4x4 minimum)
+✅ Nested list
+✅ Login form validation
+✅ Contact form validation
+✅ CSS hover effects & animations
+✅ Responsive layout
+🎨 6. Non-Functional Requirements
+✔ Fast loading
+✔ Clean UI design
+✔ Mobile responsiveness
+✔ Accessibility (readable text, contrast)
+✔ Cross-browser compatibility
+🎨 7. Design Requirements
+🎨 Color Scheme:
+Primary: #555
+Secondary: dark grey / blue
+Background: white / light grey
+🔤 Typography:
+Headings: bold, large
+Body: simple, readable
+📐 Layout:
+Header (logo + nav)
+Main content
+Footer
+🛠️ 8. Technology Stack
+HTML5 → structure
+CSS3 → styling
+JavaScript → interactivity
+
+❌ No React / frameworks / templates
+
+📂 9. Folder Structure
+AI-Nexus/
+│
+├── index.html
+├── pages/
+│   ├── about.html
+│   ├── basics.html
+│   ├── tech.html
+│   ├── applications.html
+│   ├── comparison.html
+│   ├── login.html
+│   └── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── images/
+🧪 10. Testing Requirements
+All links working
+Forms validate correctly
+No empty submission allowed
+Mobile responsiveness works
+Images load correctly
+No broken pages
+🚀 11. Constraints
+Must be manually coded
+No CMS (Wix, WordPress)
+No frameworks (React, Angular, etc.)
+Must follow assignment rules strictly
+📈 12. Future Enhancements (Optional)
+Backend integration (Node.js)
+Database (MongoDB)
+AI chatbot
+Search functionality

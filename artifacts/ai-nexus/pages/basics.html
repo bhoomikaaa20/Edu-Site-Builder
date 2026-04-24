@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Nexus — AI Basics</title>
+  <meta name="description" content="What is AI, the major types of AI, and simple explanations." />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/index.html" class="logo">
+        <span class="logo-mark">AI</span>
+        <span class="logo-text">Nexus</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="/index.html" class="nav-link" data-nav="home">Home</a>
+        <a href="/pages/about.html" class="nav-link" data-nav="about">About</a>
+        <a href="/pages/basics.html" class="nav-link" data-nav="basics">AI Basics</a>
+        <a href="/pages/tech.html" class="nav-link" data-nav="tech">Technologies</a>
+        <a href="/pages/applications.html" class="nav-link" data-nav="applications">Applications</a>
+        <a href="/pages/comparison.html" class="nav-link" data-nav="comparison">Comparison</a>
+        <a href="/pages/login.html" class="nav-link" data-nav="login">Login</a>
+        <a href="/pages/contact.html" class="nav-link" data-nav="contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">AI Basics</p>
+        <h1>What is Artificial Intelligence?</h1>
+        <p>
+          Artificial Intelligence (AI) is the field of computer science focused
+          on building systems that can perform tasks normally associated with
+          human thinking — like learning, reasoning, perception, and language.
+        </p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container content-grid">
+        <div class="prose">
+          <h2>A simple definition</h2>
+          <p>
+            At its core, AI is software that improves with experience or data.
+            Instead of being told exactly what to do, an AI system is given
+            examples or rules and learns to make decisions on its own.
+          </p>
+
+          <h3>Three ways to think about AI</h3>
+          <p>
+            AI is sometimes described in three useful slices: by capability,
+            by approach, and by application. Capability tells you what it can
+            do; approach tells you how it works; application tells you where
+            it's used.
+          </p>
+
+          <h2>Types of AI</h2>
+          <p>
+            Most modern AI fits into a small number of broad categories. Two of
+            the most common are based on how general the system is:
+          </p>
+          <ul>
+            <li>
+              <strong>Narrow AI</strong> — designed for a single task, like
+              spam filtering, image tagging, or playing chess. All AI used in
+              products today is narrow AI.
+            </li>
+            <li>
+              <strong>General AI</strong> — a hypothetical system that can
+              perform any intellectual task a human can. It does not yet exist.
+            </li>
+            <li>
+              <strong>Super AI</strong> — a theoretical level beyond human
+              ability. This is currently a topic of research and speculation,
+              not engineering.
+            </li>
+          </ul>
+
+          <h3>How AI learns</h3>
+          <p>
+            Most modern AI learns from <em>data</em>. You feed it examples
+            (pictures of cats and dogs, customer reviews, weather records),
+            and it discovers patterns it can apply to new examples it has
+            never seen before. This is called <strong>machine learning</strong>,
+            and it is the engine behind nearly every AI product you use.
+          </p>
+
+          <h2>What AI is not</h2>
+          <p>
+            AI is not magic, and it is not conscious. It does not "understand"
+            the world the way you do. It is, in essence, very good pattern
+            recognition combined with very fast math.
+          </p>
+        </div>
+
+        <figure class="figure">
+          <img src="/images/basics.svg" alt="Diagram showing data flowing into a model that produces predictions" />
+          <figcaption>Data goes in, patterns come out.</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>AI Nexus</strong>
+        <p class="muted">An educational website about Artificial Intelligence.</p>
+      </div>
+      <div>
+        <p class="muted">© <span id="year"></span> AI Nexus. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
